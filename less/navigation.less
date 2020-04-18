@@ -1,1 +1,30 @@
 // Navigation code here
+.nav-container {
+    .flex(column, center, center);
+    background: @nav-bg;
+    font-family: @nav-font;
+    border-bottom: @nav-border;
+    position: sticky;
+    top: 0;
+
+    @media @phone {
+        position: static;
+    }
+
+    h1 {
+        margin-top: .5rem;
+        font-size: 3.5rem;
+    }
+
+    nav {
+        .flex(row, space-around, center);
+
+        a {
+            padding: 1.5rem;
+            margin: .5rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    }
+    
+}
