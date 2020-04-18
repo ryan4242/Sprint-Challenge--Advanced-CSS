@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+   
+   a. An adaptive website is built using adaptive units such as em, rem, and percent. These units scale to the users screen size. A fully responsive website generally uses adaptive units but will also have media queries. This way the units scale to screen size and the whole pages layout can be changed to be user friendly on any screen size.
 
 2. Describe what it means to be mobile first vs desktop first.
+   
+   a. It just means what your base code is designed for. Mobile first starts with the mobile layout then media queries change the style to be more appropriate for desktops where desktop first would be the opposite.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+   
+   a. This sets the base page font size to 10px. when using rems this just makes math easier for developers. 1rem = 10px, 1.5rem = 15px, 20rem = 20px and so on.
 
 4. How would you describe preprocessing to someone new to CSS?
+   
+   a. Preprocessors allow us to write css under different "laws" the syntax is slightly different and you have different rules to follow. This is all based around the developer being able to write more effective and readable code. Preprocessors take whatever you write and compile it into native CSS.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+   
+   a. I love being able to nest elements it seems more logical. The most trouble I have is fully understanding the pluses and minuses of using a preprocessor. It must effect performance to some degree with the css needing compiled and so far I havent seen it being all that powerful just more convenient. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
