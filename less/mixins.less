@@ -1,1 +1,23 @@
 // Mixins Here
+.flex(@direction, @justify, @align) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btn(@padding, @fnt-size, @radius) {
+    padding: @padding;
+    font-size: @fnt-size;
+    border-radius: @radius;
+    color: @button-font-color;
+    background-color: @button-bg;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    &:hover {
+        background: @button-font-color;
+        color: @button-bg;
+        border: 1px solid @button-bg;
+    }
+}
